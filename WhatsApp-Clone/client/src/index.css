@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* webkit kae andar, scrollbar aata hai */
+::-webkit-scrollbar {
+  width: 6px!important;
+  height: 6px!important;
+}
+/* thumb jisko pakad kae scroll kartae hai */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,.2);
+}
+/* track,jispae thumb jiskae upar chalta hai */
+::-webkit-scrollbar-track {
+  background: hsla(0, 38%, 10%, 0.1);
+}
